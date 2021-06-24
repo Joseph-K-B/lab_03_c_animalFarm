@@ -37,7 +37,7 @@ lion.addEventListener('click', ()=> {
 const elephantSound = document.getElementById('elephant-sound');
 const elephant = document.getElementById('elephant');
 elephant.addEventListener('click', ()=>{
-  elephantSound.play();
+    elephantSound.play();
 });
 // set event listeners 
   // get user input(s)
