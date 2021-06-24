@@ -6,17 +6,18 @@ body {
     grid-template-rows: auto 1fr auto;
 }
 
-main {
+main { background-color: rgb(199, 215, 231);
     padding: 30px;
 }
 
 header {
-    background-color: #A2D7D2;
+    background-color: #251a8b;
     height: 110px;
     padding: 0 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    color: snow;
 }
 
 header img {
@@ -30,10 +31,23 @@ h1 {
 }
 
 footer {
-    background-color: #FAF0EA;
+    background-color: #251a8b;
     padding: 10px;
+    color: snow;
 }
 img {
     height:200px;
     cursor:pointer;
 }
+.image {
+    size: 170px;
+    flex: content;
+    align-items: center;
+    margin : 6px;
+    border: solid;
+    border-radius: 30px;
+    column-count: 3;
+}
+/* .lion {
+    
+} */
