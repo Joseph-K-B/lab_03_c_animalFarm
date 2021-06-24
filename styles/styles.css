@@ -47,6 +47,7 @@ img {
     border: solid;
     border-radius: 30px;
     column-count: 3;
+    background-color: rgb(199, 215, 231);
 }
 /* .lion {
     

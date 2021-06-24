@@ -1,10 +1,13 @@
 // cat function
 const catSound = document.getElementById('cat-sound');
-// const playCat = document.getElementById('play-cat');
-// playCat.addEventListener('click', ()=>{
+// const playcat = document.getElementById('play-cat');
+// playcat.addEventListener('click', ()=>{
 //     catSound.play();
 // });
 const cat = document.getElementById('cat');
+// cat.addEventListener('keydown', ()=>{
+//   catSound.play();
+// })
 cat.addEventListener('click', ()=>{
     catSound.play();
 });
